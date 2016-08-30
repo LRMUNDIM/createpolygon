@@ -182,7 +182,7 @@ int main(int argc,char *argv[]){
 	//out file
 	FILE *arq;
 	char local[50];
-	sprintf(local,"out/%s_items.txt",saida);
+	sprintf(local,"%s.txt",saida);
 	// write mode with file creation -> w +
 
     if((fopen(local,"r"))!=NULL){
